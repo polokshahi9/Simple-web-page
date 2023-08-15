@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: #262626;
+   width: 100%;
+   height: 100vh;
+}
+#principalDiv{
+   display: none;
+    background-color: white;
+}
+.container{
+    border: 2px solid gray;
+    height: 500px;
+    width: 500px;
+    margin-left: 33%;
+    margin-top: 6%;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container h1{
+   color: white;
+    text-align: center;
+    margin-top: 6%;
+    font-family: sans-serif;
+  
+}
+ 
+.input-item{
+    margin-top: 80px;
+    outline: 0;
+    border: 0;
+    height: 35px;
+    width: 300px;
+    margin-left: 20%;
+    text-indent: 5px;
+    border-radius: 10px;
+    outline: 0;
+    border: 1px solid gray;
+    outline: 1px solid lightblue;
+    
+ 
+}
+.input-item2{
+    
+    margin-top: 5%;
+    border: 0;
+    height: 35px;
+    width: 300px;
+    margin-left: 20%;
+    text-indent: 8px;
+    border-radius: 10px;
+    outline: 0;
+    border: 1px solid gray;
+    outline: 1px solid lightblue;
+
+}
+#btn{
+    position: absolute;
+    margin-top: 30px;
+    padding: 12px 44px;
+    margin-left: 36%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#btn:hover{
+    background-color: #04aa6d;
+    color: white;
+    transition: .6s ease-in;
+}
+
+
+
+.input-item:focus{
+    border: 3px solid #04aa6d;
+   
+}
+.input-item2:focus{
+    border: 3px solid #04aa6d;
+    
+}
+
+
+/* navbar..........css */
+
+
+.navbar{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 1% 7%;
+   
+    
+
+    
+    
+
+
+}
+.navbar a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+    font-size: 120%;
+}
+.dropdown-container{
+position: relative;
+display: inline;
+
+
+}
+.navbar a:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+/* .dropdown-content{
+
+position: absolute;
+left: 0px;
+text-align: left;
+top: 25px;
+background-color: cadetblue;
+display: none;
+
+
+}
+.dropdown-content a{
+    display: block;
+    transition: .6s;
+}
+
+.dropdown-container:hover .dropdown-content{
+   display: inline;
+   
+
+}
+.dropdown-content a:hover{
+    color: white;
+    background: rgb(58, 93, 126);
+    transition: 1s; */
+
+
+a.active, a:hover{
+    background: rgb(27, 128, 130);
+    border-radius: 7%;
+    color: floralwhite;
+
+}
+
+
+
+/* CARD DESIGN........................ */
+.main-div{
+    margin-left: 8%;
+}
+.card{
+height: 55vh;
+width: 23%;
+border: 0;
+background-color: white;
+margin: 50px;
+border-radius: 5px;
+display: inline-block;
+box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.tittle{
+    text-align: center;
+    padding: 5px;
+
+}
+
+.des{
+    text-align: center;
+    padding: 4px;
+}
+
+.des button{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.des button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease;
+    font-weight: bold;
+}
+
+/* Footer area design  */
+
+.footer{
+   bottom: 0;
+   width: 100%;
+   height: 55vh;   /* Height of the footer */
+   background: #262626;
+   color: white;
+}
+::selection{
+    background-color: yellow;
+    color: black;
+}
+.footer-content{
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+.footer-content h1{
+    margin-top: 25px;
+    
+    
+}
+
+.sub-footer{
+        background-color: rgb(34, 33, 33);
+        width: 100%;
+        height: 6vh;
+        box-shadow: rgb(45, 61, 78) 0px 20px 30px -10px;
+        margin-top: 180px;
+
+}
+
+
+
+.icon-div{
+    display: inline-block;
+    position: absolute;
+    margin-top: 250px;
+    
+}
+
+.icon-div i{
+    padding: 0px 15px;
+    font-size: 30px;
+    color: orange;
+    cursor: pointer;
+}
+.email-option{
+    position: absolute;
+    margin-top: 25%;
+}
+.email-option input{
+   padding: 8px 10px;
+   border-radius: 5px;
+   outline: none;
+   
+}
+.email-option input:focus{
+    border: 3px solid #04aa6d;
+}
+#submit-button{
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: 0;
+    border: 0;
+
+}
+    #submit-button:hover{
+        background-color: orange;
+        transition: .6s ease-in-out;
+        color: white;
+    }
+
+
+.last-text{
+    text-align: center;
+    color: gray;
+    
+}
